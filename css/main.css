@@ -286,14 +286,13 @@ figure{
 
 
 
-
+/*recog*/
 
 
 #recognitions{
 	padding: 30px 0px;
 	background-color: #4e5fff;
 }
-
 .rec-title{
 	text-align: left;
 	font-family: Montserrat;
@@ -310,11 +309,9 @@ figure{
 .card6{
 	background-color: #ffffff;
 	margin: 16% auto;
-
 }.card7{
 	background-color: #ffffff;
 }
-
 .cardtext{
 	font-family: OpenSans-Light;
 	color: #656565;
@@ -322,4 +319,62 @@ figure{
 	text-align: center;
 	padding-left: 0px !important;
 	padding-right: 0px !important;	
+}
+
+/*clients*/
+#clients{
+	padding: 30px 0px;
+	/*background-color: #ffffff;*/
+	background-image: linear-gradient(#f8f8f8,#efefef);
+}
+.clients-title{
+	text-align: left;
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 50px;
+	color: #656565;
+}
+.clients-subtitle{
+	text-align: left;
+	font-family: OpenSans-Light;
+	font-size: 36px;
+	color: #656565;
+}
+.col-md-2{
+	margin-top: 5px !important;
+	padding-right: 5px !important;
+	padding-left: 0px !important;
+}
+.card8{
+	background-color: #e0e0e0;
+	padding: auto;
+}.cardtext-client1{
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 30px;
+	color: #656565;
+}.cardtext-client2{
+	text-align: center;
+	font-family: OpenSans-Light;
+	font-size: 30px;
+	color: #656565;
+}
+
+/*Presence*/
+.Presence{
+	padding: 30px 0px;
+	background-color: #ffffff;
+}
+.presence-title{
+	text-align: left;
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 50px;
+	color: #656565;
+}
+.presence-subtitle{
+	text-align: left;
+	font-family: OpenSans-Light;
+	font-size: 36px;
+	color: #656565;
 }
