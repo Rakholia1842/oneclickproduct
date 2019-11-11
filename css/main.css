@@ -94,7 +94,7 @@ p{
 	font-family: Montserrat;
 	font-weight: bold;
 	font-size: 14px;
-
+	color: #ffffff !important;
 	box-shadow: none;
 	padding: 12px 50px;
 	border: none;
@@ -107,6 +107,7 @@ p{
 	font-family: Montserrat;
 	font-weight: bold;
 	font-size: 14px;
+	color: #ffffff !important;
 	box-shadow: 8px 8px 5px #aaaaaa;
 	padding: 12px 50px;
 	border: none;
@@ -166,10 +167,10 @@ p{
 	cursor: -webkit-grab; cursor: grab;
 }
 
-
 #services .card-body{
 	padding: 0 !important;
 	margin-right: 0px !important;
+
 }#services .card1{
 	background-color: #4e5fe1;
 }#services .card2{
@@ -304,6 +305,7 @@ p{
 	font-size: 36px;
 	color: #ffffff;
 }
+
 .card6{
 	background-color: #ffffff;
 	margin: 13% auto;
@@ -344,7 +346,7 @@ p{
 	padding-left: 0px !important;
 }
 .card8{
-	background-color: #e0e0e0;
+	background-color: #f0f0f0;
 	padding: auto;
 }.cardtext-client1{
 	text-align: center;
