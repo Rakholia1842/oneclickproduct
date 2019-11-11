@@ -219,7 +219,7 @@ p{
 
 /*nav icon*/
  .carousel-wrap {
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
     position: relative;
   }
