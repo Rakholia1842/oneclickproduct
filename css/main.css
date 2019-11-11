@@ -167,27 +167,27 @@ p{
 }
 
 
-.card-body{
+#services .card-body{
 	padding: 0 !important;
 	margin-right: 0px !important;
-}.card1{
+}#services .card1{
 	background-color: #4e5fe1;
-}.card2{
+}#services .card2{
 	background-color: #e1d400;
-}.card3{
+}#services .card3{
 	background-color: #4a6cda;
-}.card4{
+}#services .card4{
 	background-color: #0fdba8;
-}.card5{
+}#services .card5{
 	background-color: #0fdba6;
 }
 
-figure{
+#services figure{
 	display: block;
 }
 
 /* Bottom right text */
-.text-block {
+#services .text-block {
   position: absolute;
   bottom: 15px;
   background-color: #f6f2b3;
@@ -196,7 +196,7 @@ figure{
   padding-right: 20px;
   border-radius: 0px 5px 0px 0px;
   width: 80% auto; 
-}.card-title{
+} #services.card-title{
 	font-family: Montserrat;
 	font-size: 36px;
 	font-weight: 600;
@@ -204,7 +204,7 @@ figure{
 	padding-left: 0px !important;
 	padding-right: 0px !important;
 	
-}.card-content{
+}#services .card-content{
 	font-family: OpenSans-Light;
 	color: #000000;
 	font-size: 20px;
@@ -212,7 +212,7 @@ figure{
 	padding-right: 0px !important;
 }
 
-.owl-dots{
+#services .owl-dots{
 	display: none !important;
 }
 
@@ -287,8 +287,6 @@ figure{
 
 
 /*recog*/
-
-
 #recognitions{
 	padding: 30px 0px;
 	background-color: #4e5fff;
@@ -361,9 +359,9 @@ figure{
 }
 
 /*Presence*/
-.Presence{
+#Presence{
 	padding: 30px 0px;
-	background-color: #ffffff;
+	background-color: #f7f7f7;
 }
 .presence-title{
 	text-align: left;
@@ -378,3 +376,39 @@ figure{
 	font-size: 36px;
 	color: #656565;
 }
+
+/*CaseStudy*/
+#CaseStudy{
+	padding: 30px 0px;
+	background-color: #ffffff;
+}
+.CaseStudy-title{
+	text-align: left;
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 50px;
+	color: #656565;
+}
+.CaseStudy-subtitle{
+	text-align: left;
+	font-family: OpenSans-Light;
+	font-size: 36px;
+	color: #656565;
+}
+.case-bgimage{
+	background-image: url("../images/case.png");
+	 background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+
+#CaseStudy .card-body{
+	padding: 0 !important;
+	margin-right: 0px auto !important;
+}
+
+/*#CaseStudy figure{
+	display: block;
+}
+*/
